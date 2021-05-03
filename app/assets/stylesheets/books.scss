@@ -20,3 +20,27 @@ table{
 .success{
   color: green;
 }
+
+.error-box{
+  border:solid 2px red;
+  width:470px;
+  height: 135px;
+  margin-bottom:15px;
+  background-color: #dcdcdc;
+}
+
+.error-box h2{
+  font-size: 12px;
+  font-weight: bold;
+  color:white;
+  background-color: #cc0000;
+  margin:0;
+  padding:5px 5px 5px 15px;
+}
+
+.error-alert ul{
+  margin:33px;
+  width:350px;
+  line-height: 18px
+
+}
