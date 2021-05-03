@@ -14,10 +14,11 @@
         <%= book.body %>
       </td>
       <td>
-        <%= link_to 'Show',book_path(book) %>
+        <%= link_to 'Show', book_path(book) %>
       </td>
-      
-      <td>Edit</td>
+      <td>
+        <%= link_to 'Edit', edit_book_path(book) %>
+      </td>
       <td>Destroy</td>
     <% end %>
   </tr>
